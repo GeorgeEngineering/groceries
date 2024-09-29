@@ -18,3 +18,6 @@ git branch -M groceries#4-creating-react-project
 git branch -M main
 
 git push -u origin groceries#4-creating-react-project
+
+Had to use this command to fix an error while pushing the changes to Git.
+git config remote.origin.push HEAD
