@@ -10,39 +10,11 @@ Currently, two official plugins are available:
 
 ---
 
-# Instructions used at the beginning of this project:
-echo "Groceries Application" >> README.md
+For more information with regard to the installation of the React project, take a look at the following markdown file:
 
-Initializing the Git repository.
-git init
+[Git Initialization](documentation/getting-setup/git.md)
 
-Adding the README file to the staging area.
-git add README.md
+[React/Vite/Tailwind Setup](documentation/getting-setup/react-vite-tailwind.md)
 
-Commiting the README file.
-git commit -m "groceries#4 - Adding the README.md file to the remote Git repository."
-
-git branch -M groceries#4-creating-react-project
-
-git branch -M main
-
-git push -u origin groceries#4-creating-react-project
-
-Had to use this command to fix an error while pushing the changes to Git.
-git config remote.origin.push HEAD
-
-Creating a Vite project:
-npm create vite@latest groceries-project -- --template react
-
-Installing Tailwind
-npm install -F -D tailwindcss postcss autoprefixer
-
-Had some issues when installing Tailwind, so I ran these commands:
-npm install --save err
-npm config set registry http://registry.npmjs.org
-
-Creating the Tailwind CSS config file tailwind.config.js and the PostCSS config file: postcss.config.js
-npx tailwindcss init -p
-
-
+[Running the Project](documentation/running-the-project/runnining-the-project.md)
 
