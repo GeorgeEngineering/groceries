@@ -1,0 +1,10 @@
+#Groceries backend
+
+##Instrunctions
+
+1. Add following environment variables MY_SQL_USER, MY_SQL_PASSWORD, MY_SQL_DBNAME pointing to mysql db.
+   2.-JWToken configuration, add environment variable JWT_SECRET.
+2. Email configuration, add EMAIL_USER ,EMAIL_PASSWORD.
+
+4.- execute npm install
+5.- Run the proyect using npm run dev
